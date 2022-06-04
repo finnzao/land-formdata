@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7K Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./components/img/logo.svg">
+
+</head>
+
+<body>
+    <main id="home">
+        <div class="container">
+            <div class="content">
+                <h1>Nome da Empresa</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <marK>Suscipit ea eaque</marK>
+                    exercitationem itaque
+                    quas id possimus totam maiores, ducimus hic!</p>
+                <a class="btn" href="#about" onsubmit="return false"><button>Quero saber mais</button></a>
+            </div>
+        </div>
+    </main>
+
+
+    <section id="about">
+        <div class="container">
+            <div class="about-c">
+                <h2>QUEM SOMOS</h2>
+                <p>Lorem ipsum dolor sit amet <mark>ipsum dolor</mark>
+                    Lorem ipsum dolor sit amet consectetur,<mark>ipsum dolor sit</mark>,lorem ipsum dolor sit amet
+                    consectetur.
+
+            </div>
+        </div>
+    </section>
+
+    <section id="how">
+        <div class="container">
+            <div class="how-c">
+                <h2>Como funcionamos</h2>
+                <div class="how-to">
+                    <ul class="tilesWrap">
+                        <li>
+                            <h2>01</h2>
+                            <h3>Template </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, sunt.
+                            </p>
+
+                        </li>
+                        <li>
+                            <h2>02</h2>
+                            <h3>Template </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+
+                        </li>
+                        <li>
+                            <h2>03</h2>
+                            <h3>Template </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+
+                        </li>
+                        <li>
+                            <h2>04</h2>
+                            <h3>Template </h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel sunt beatae similique
+                                nobis unde! </p>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div style="height:100%; " class="container">
+            <div class="about-c">
+                <h2 style="text-align:center;margin-top: 100px;">Nosso time é formado por:</h2>
+                <div class="members-c">
+
+                    <ul>
+                        <li>
+                            <img src="./components/img/design.png"></img>
+                            <br>
+                            <span> Exemplo 1</span>
+                        </li>
+                        <li>
+                            <img src="./components/img/Copywriters.png"></img>
+                            <span> Exemplo 2</span>
+                        </li>
+                        <li>
+                            <img src="./components/img/Gestor.png"></img>
+                            <span> Exemplo 3</span>
+                        </li>
+                    </ul>
+                    <div class="members-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolores eius quae vitae ab
+                            fugiat facere consequuntur asperiores esse deleniti.
+                        </p>
+                        <button id="action-btn" class="button-green" target="_blank">RECEBER CONTATO</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <form class="send_form" style="display: none;" action="https://formsubmit.co/lipefelipe403@hotmail.com"
+        method="POST">
+
+        <input type="hidden" name="_next" value="https://finnzao.github.io">
+        <input type="hidden" name="_captcha" value="false">
+
+        <input id="datefrom" type="text" class="form_cliente" name="cliente" value="1" required>
+        <input id="datefrom" type="text" class="form_email" name="Email" value="" required>
+        <input id="datefrom" type="text" class="form_number" name="Number" value="11" required>
+        <input id="datefrom" type="text" class="form_renda" name="Renda" value="" required>
+        <input id="datefrom" type="text" class="form_empresa" name="Empresa" value="" required>
+        <input id="datefrom" type="text" class="form_empregados" name="Empregados" value="" required>
+
+        <button id="formsend" type="submit">Send</button>
+    </form>
+
+
+    <div id="form" class="form-container ">
+
+        <div class="form-cont">
+
+
+            <h2>Responda o questionário abaixo para entramos em contato com você </h2>
+
+            <div id="progress_bar"></div>
+            <form class="questions_box">
+
+                <div id="question-1">
+                    <div class="display-question-1">
+                        <h3>Qual seu nome?</h3>
+
+                        <span class="spaninput">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 -2 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            <input minlength="2" maxlength="50" onfocus="this.selectionStart = this.selectionEnd = 500;"
+                                class="answer" id="question-1-answer-a" type="text" name="name"
+                                placeholder="Seu nome aqui..." autocomplete="off">
+                        </span>
+                        <div type="submit" value="Submit" id="submit1" class="button">Enviar Resposta</div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+                <div id="question-2">
+
+                    <h3>Qual seu email?</h3>
+                    <span class="spaninput">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor"
+                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                        </svg>
+                        <input maxlength="50" class="answer" id="question-2-answer-a" type="email" name="favelang"
+                            placeholder="Email...">
+                    </span>
+
+                    <div id="submit2" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div id="question-3">
+
+                    <h3>Qual seu número do celular?</h3>
+
+                    <span class="spaninput">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-phone-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
+                        </svg>
+                        <input inputmode="numeric" class="answer" id="question-3-answer-a" type="text" name="favelang"
+                            maxlength="30" placeholder="Número..." data-js="phone">
+                    </span>
+
+                    <div id="submit3" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div id="question-4">
+
+                    <h3>Nome da empresa?</h3>
+
+                    <span class="spaninput">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor"
+                            class="bi bi-building" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                            <path
+                                d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+                        </svg>
+                        <input maxlength="30" class="answer" id="question-4-answer-a" type="text" name="favelang"
+                            placeholder="Empresa..." autocomplete="off">
+                    </span>
+                    <br>
+                    <div id="submit4" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div id="question-5">
+
+                    <h3>Faturamento mensal:</h3>
+                    <input class="answer" id="question-5-answer-a" type="text" name="favelang">
+                    <section class="dark">
+                        <label>
+                            <input type="radio" name="dark" checked value="Até 20 mil">
+                            <span class="design"></span>
+                            <span class="text">Até 20 mil</span>
+                        </label>
+
+                        <label>
+
+                            <input type="radio" name="dark" value="21 mil à 70 mil">
+                            <span class="design"></span>
+                            <span class="text">21 mil - 70 mil</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="dark" value="70 mil à 100 mil">
+                            <span class="design"></span>
+                            <span class="text">70 mil - 100 mil</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="dark" value="100 mil mil à 400 mil">
+                            <span class="design"></span>
+                            <span class="text">100 mil - 400 mil</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="dark" value="Mais de 400 mil">
+                            <span class="design"></span>
+                            <span class="text">Mais de 400 mil</span>
+                        </label>
+                    </section>
+
+
+                    <div id="submit5" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+                </div>
+
+
+
+
+                <div id="question-6">
+                    <h3>Número de Funcionários?</h3>
+                    <span class="spaninput">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor"
+                            class="bi bi-boxes" viewBox="0 0 16 16">
+                            <path
+                                d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z" />
+                        </svg>
+                        <input inputmode="numeric" maxlength="20" class="answer" id="question-6-answer-a" type=" number"
+                            name="favelang" autocomplete="off" required>
+                    </span>
+                    <br>
+                    <div id="submit6" class="button">Enviar Resposta</div>
+                    <div class="clearfix"></div>
+
+
+
+                </div>
+
+                <div id="question-7">
+
+                    <h3>Fim do nosso formulário ! <br>Basta confirma e nossa equipe
+                        entrara em contato com você</h3>
+                    <!-- onclick="sendform()" -->
+                    <div id="submit7" class="button">Confirmar Solicitação</div>
+                    <div class="clearfix"></div>
+                </div>
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <!--                                                                               -->
+    </section>
+    <section id="contacts">
+        <div class="contacts-c">
+            <h1>Preencha seu formulário abaixo</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse repellendus asperiores commodi dolorum
+                vero ullam?</p>
+            <button id="action-btn2" class="button-green" target="_blank">RECEBER CONTATO</button>
+
+        </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <span> Copyright 2022&copy; </span>
+
+            <span>Made by <a href="https://github.com/finnzao" target="_blank"><strong
+                        style="color: rgb(101, 101, 245);">7K</strong></a></span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="./components/js/main.js"></script>
+
+</body>
+
+</html>
