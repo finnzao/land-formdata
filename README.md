@@ -1,2 +1,2 @@
 # https://finnzao.github.io/land-formdata/
-landing page com html ,e direcionado de dados para email  usando formsubmit
+Landing page with HTML,JQUERY,JS and using  FormSubmit 
